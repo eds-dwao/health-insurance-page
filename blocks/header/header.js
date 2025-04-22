@@ -1,7 +1,4 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
 
-// media query match that indicates mobile/tablet width
 export default function decorate(block) {
     const container = document.createElement('div');
     container.setAttribute('class', 'container');
